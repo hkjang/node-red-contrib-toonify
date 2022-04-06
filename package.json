@@ -1,0 +1,32 @@
+{
+  "name": "node-red-contrib-toonify",
+  "version": "1.0.2",
+  "description": "Node-RED node for toonify",
+  "main": "node.js",
+  "scripts": {
+    "test": "mocha \"test/**/*_spec.js\" --timeout 3000"
+  },
+  "node-red": {
+    "nodes": {
+      "toonify": "node.js"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/hkjang/node-red-contrib-toonify/issues"
+  },
+  "homepage": "https://github.com/hkjang/node-red-contrib-toonify#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkjang/node-red-contrib-toonify.git"
+  },
+  "keywords": [
+    "node-red-contrib-contribgen", 
+    "node-red", 
+    "toonify",
+    "deepai"
+  ],
+  "dependencies": {
+    "deepai": "^1.0.0"
+  },
+  "license": "BSD-2-Clause"
+}
